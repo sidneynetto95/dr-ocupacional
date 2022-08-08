@@ -1,6 +1,4 @@
-.info-paciente-ho{
-    
-    
+.info-paciente-ho{ 
     border-radius: 5px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     background-color: var(--white-bg-color);
@@ -12,6 +10,7 @@
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     background-color: var(--white-bg-color);
     justify-content: space-between; 
+
 }
 
 .historico-ocupacional-ho {
@@ -23,9 +22,11 @@
 
 .info-header-ho-content {
     padding-bottom: 15px;
+    background-color: #fafbfc;
 }
 
 .button-next-content-ho {
+    padding-bottom: 15px;
     padding-left: 95%;
     color: var(--blue-color);
     
