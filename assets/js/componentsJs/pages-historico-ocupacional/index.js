@@ -1,3 +1,0 @@
-import ageChecker from "./ageChecker";
-
-
