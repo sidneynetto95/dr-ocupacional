@@ -1,0 +1,134 @@
+.info-paciente-ho{
+    
+    
+    border-radius: 5px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: var(--white-bg-color);
+    justify-content: space-between;    
+}
+
+.riscos-pcmso-ho{
+    border-radius: 5px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: var(--white-bg-color);
+    justify-content: space-between; 
+}
+
+.info-header-ho-content {
+    padding-bottom: 15px;
+}
+
+.button-next-content-ho {
+    padding-left: 95%;
+    color: var(--blue-color);
+    
+}
+
+
+/* INFO PACIENT CONTENT */
+
+.info-paciente-ho-content {
+    justify-content: space-between;
+}
+
+.header-ho-content h1 {
+    font-family: var(--roboto);
+    font-size: 16px;
+    color: var(--blue-color);
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.info-paciente-ho-card {
+    padding-bottom: 15px;
+    
+}
+
+.info-paciente-ho-card label {
+    margin: 0 136px 8px 0;
+    font-family: var(--roboto);
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-color);
+}
+
+.info-paciente-ho-card p {
+    margin: 8px 0 0;
+    font-family: var(--roboto);
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-color);
+}
+
+/* END */
+
+/* RISCOS PCMSO CONTENT */ 
+
+.riscos-pcmso-ho-content h1 {
+    padding-top: 15px;
+    margin: 0 695px 8px 0;
+    font-family: var(--roboto);
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-color);
+}
+
+.riscos-pcmso-ho-content p {
+    padding-bottom: 15px;
+    margin: 8px 0 0;
+    font-family: var(--roboto);
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-color);
+}
+/* END */
+
+/*ACIDENTE DE TRABALHO CONTENT*/ 
+
+.acidente-card-content h1 {
+    font-size: 14px;
+    font-family: var(--roboto);
+}
+
+.form-check-content label {
+    font-family: var(--roboto);
+    margin: 0px 15px 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+
+    letter-spacing: normal;
+    text-align: left;
+}
+
+/* END */
+
+
+
+
+

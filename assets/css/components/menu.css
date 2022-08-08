@@ -1,0 +1,122 @@
+.sideMenu {
+    background: var(--white-menu-color) ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 18vw;
+    height: 100vh;
+    overflow-y: scroll;
+    z-index: 1;
+    align-items: center;
+    background-color: var(--white-menu-color);
+}
+
+
+
+
+.sideMenu h1{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-color);
+    margin-bottom: 16px;
+}
+
+.sideMenu a{
+    text-decoration: none;
+    color: var(--black-color);   
+}
+
+.sideMenu ul{   
+     
+    margin-left: 0;
+    margin-right: 0;   
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: 100vw;
+    
+}
+
+.sideMenu ul li{
+   
+    min-width: 100%; 
+    
+    min-height: 2.8rem;
+    font-size: 14px;
+    list-style: none; 
+    
+}
+
+.item-menu-content { 
+
+    min-width: 100%;        
+    display: flex;
+    align-items: center;     
+    width: fit-content; 
+}
+
+.nav-icon {
+    width: 8px;      
+    margin-right: 8px;
+    margin-left: 4px;
+    
+}
+
+.sideMenu ul li i{    
+    box-sizing: content-box;
+    padding-right: 8px; 
+    max-height: 32px; 
+}
+
+.sideMenu ul li a{ 
+    min-width: 40px;    
+    color: var(--gray-color);  
+      
+}
+
+.sideMenu ul li ::after {    
+    content: '';    
+    position: absolute;
+    left: 0;     
+    background: var(--blue-color);
+}
+
+.sideMenu ul li :hover::after {
+    width: 8px;
+    height: 32px;
+    color: var(--blue-color);
+    font-weight: bolder;
+}
+
+
+
+.active-menu {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+
+.item-menu-content :hover i {
+    color: var(--blue-color);
+    font-weight: bolder;    
+}
+.item-menu-content :hover  {
+    color: var(--black-color);
+    font-weight: bolder;
+    
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Histórico Ocupacional</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/components/menu.css">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/components/header.css">
+
+    <link rel="stylesheet" href="assets/css/components/pagesComponents/historico-ocupacional.css">
+    
+    
+    <script src="https://kit.fontawesome.com/f27eb7a3a5.js" crossorigin="anonymous"></script>
+
+</head>
+<body onload="ageChecker()">
+    
+        <aside class="sideMenu">
+            <div class="menu-content">
+                <div id="intro" class="navbarLogo"><img src="assets/img/logoNavBar.png" alt=""></div>
+                <h1><a href="#">Prontuário</a></h1>
+                <nav>
+                    <ul>
+                        
+                            <li class="active-menu">
+                                <div id="Histórico Ocupacional" class="item-menu-content ">
+                                    <a
+                                      href="historico-ocupacional.html">
+                                        <i class="nav-icon fa-solid fa-file-circle-plus "></i>
+                                        Histórico Ocupacional
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-menu-content">
+                                    <a href="#">
+                                        <i class="fa-solid fa-person-running nav-icon"></i>
+                                        Hábitos de vida
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-menu-content">
+                                    <a href="#">
+                                        <i class="fa-solid fa-people-roof nav-icon"></i>
+                                        Antecedentes Familiares
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-menu-content">
+                                    <a href="#">
+                                        <i class="fa-solid fa-person nav-icon"></i>
+                                        Antecedentes Pessoais
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-menu-content">
+                                    <a href="#">
+                                        <i class="fa-solid fa-virus-covid nav-icon"></i>
+                                        COVID-19
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-menu-content">
+                                    <a href="#">
+                                        <i class="fa-solid fa-bed-pulse nav-icon"></i>
+                                        Queixa de Dor
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-menu-content">
+                                    <a href="#">
+                                        <i class="fa-solid fa-x-ray nav-icon"></i>
+                                        Screening de Exames
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-menu-content">
+                                    <a href="#">
+                                        <i class="fa-solid fa-person-dress nav-icon"></i>
+                                        Saúde da Mulher
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-menu-content">
+                                    <a href="#">
+                                        <i class="fa-solid fa-stethoscope nav-icon"></i>
+                                        Sinais Vitais
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-menu-content">
+                                    <a href="#">
+                                        <i class="fa-solid fa-clipboard-user nav-icon"></i>
+                                        Exame Físico
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-menu-content">
+                                    <a href="#">
+                                        <i class="fa-solid fa-wheelchair nav-icon"></i>
+                                        Avaliação PCD
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-menu-content">
+                                    <a href="#">
+                                        <i class="fa-solid fa-check nav-icon"></i>
+                                        Conclusão
+                                    </a>
+                                </div>
+                            </li>
+                        
+                        
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+
+        <div id="intro" class="header main-content">
+            <div class="header-content d-flex ">
+                <div class="header-text-label d-flex align-items-center mb-2 mb-lg-0 bi me-2">
+                    <p>Seja bem vindo(a), você esta no ambiente de <strong>, Homologação!</strong></p>
+                </div>
+                <div class="profile-content nav align-items-center mb-2 mb-lg-0 bi me-2">
+                    <img src="assets/img/userIcon.jpg" class="user-img bi me-2" width="40" height="32" role="img" aria-label="Welcome messenger" alt="">
+                    <div class="profile-label">
+                        <div class="user-sex-label">
+                            <p>Sex,</p>
+                        </div>
+                        <div class="user-age-label">
+                            <p>00 anos</p>
+                        </div>
+                        <div class="user-name-label">
+                            <p><strong>Place Holder</strong></p>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-angle-down"></i>                  
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content spacing"></div>
+
+        
+        <section id="informacoesDoPaciente" class="info-paciente-ho main-content">
+            <div class="header-ho-content row">
+                <h1 class="col">Informações do Paciente</h1>
+                <button type="button" class="btn btn-primary btn-primary-default col"><i class="fa-solid fa-paperclip"></i> Arquivos digitalizados</button>
+            </div>
+            <div class="info-paciente-ho-content row">
+                <div class="row">
+                    <div class="info-paciente-ho-card col">
+                        <label for="Name">Nome:</label>
+                        <div id="userFullName">
+                            <p>Content PlaceHolder</p>
+                        </div>
+                    </div>
+                    <div class="info-paciente-ho-card col">
+                        <label for="Sector">Setor:</label>
+                        <div id="userSector">
+                            <p>Content Placeholder</p>
+                        </div>
+                    </div>
+                    <div class="info-paciente-ho-card col">
+                        <label for="Exam Date">Data do Exame:</label>
+                        <div id="userExamDate">
+                            <p>00/00/00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="info-paciente-ho-card col">
+                        <label for="Birth Date">Data de nascimento</label>
+                        <div  id="nascimentoUserDate">
+                           <p>00/00/00, 00 years<p>                          
+                        </div>
+                    </div>
+                    <div class="info-paciente-ho-card col">
+                        <label for="role">Cargo</label>
+                        <div id="userRole">
+                            <p>Content Placeholder</p>
+                        </div>
+                    </div>
+                    <div class="info-paciente-ho-card col">
+                        <label for="Responsable Doctor">Médico Executor:</label>
+                        <div id="userMainDoc">
+                            <p>Content Placeholder-CRM:0000000/UF</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="info-paciente-ho-card col">
+                        <label for="cpf">CPF:</label>
+                        <div id="userCpf">
+                            <p>000.000.000-00</p>
+                        </div>
+                    </div>
+                    <div class="info-paciente-ho-card col">
+                        <label for="procedures">Procedimentos:</label>
+                        <div id="userProcedures">
+                            <p>Content Placeholder</p>
+                        </div>
+                    </div>
+                    <div class="info-paciente-ho-card col">
+                        <label for="userMaindDocCpf">Cpf do Médico:</label>
+                        <p>000.000.000-00</p>
+                    </div>
+                </div>
+                
+
+            </div>
+
+        </section>
+        
+        <div class="spacing"></div>
+
+        <section id="riscosPCMSO" class="riscos-pcmso-ho main-content">
+            <div class="header-ho-content">
+                <h1>Riscos PCMSO</h1>
+            </div>
+            <div class="riscos-pcmso-ho-content">
+                <div id="riscosPcmsoCheckIn">
+                    <h1>Ergonômico</h1>
+                    <p>Condições de trabalho com níveis de pressão sonora fora dos parâmetros de conforto, postura sentada por longos períodos</p>
+                </div> 
+             </div>
+        </section>
+
+        <div class="spacing"></div>
+
+        <div class="title main-content">
+            <h1>Prontuário Clinico</h1>
+        </div>
+
+        <div class="spacing"></div>
+
+        <section id="historicoOcupacional" class="historico-ocupacional main-content">
+            <div class="header-ho-content">
+                <h1>Histórico Ocupacional</h1>
+            </div>
+            
+            <div id="accidentCheckBox"class="acidente-card-content">
+                <h1>Acidente de Trabalho:</h1>
+                <div class="form-check-inline form-check-content">
+                    <input class="form-check-input col" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Sim
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-check-content">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Não
+                    </label>
+                  </div> 
+            </div>
+
+            <div class="spacing"></div>
+
+            <div id="accidentCheckBox"class="acidente-card-content">
+                <h1>Afastamento no INSS:</h1>
+                <div class="form-check-inline form-check-content">
+                    <input class="form-check-input col" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Sim
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-check-content">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Não
+                    </label>
+                  </div> 
+            </div>
+            
+            <div class="spacing"></div>
+
+            <div class="acidente-card-content">
+                <h1>Experiéncia na função</h1>
+                <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-btn-primary-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Selecione uma opção
+                    </button>
+                    <div class="dropdown-menu">
+                      ...
+                    </div>
+                  </div>
+            </div>
+
+            <div class="button-next-content-ho">
+                <button type="button" class="btn btn-primary btn-primary-default col">Avançar</button></div>
+        </section>
+    
+    <script src="assets/js/componentsJs/pages-historico-ocupacional/ageChecker.js"></script>
+</body>
+</html>

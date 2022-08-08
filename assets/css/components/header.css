@@ -1,0 +1,76 @@
+.header {
+    max-height: 78px;
+    padding-top: 1%;
+    background-color: var(--blue-color);
+    justify-content: space-between;
+  }
+
+  .header-content {
+    justify-content: space-between;
+  }
+
+  .header-text-label p {
+    color: var(--white-menu-color);
+    font-family: var(--roboto);
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: bold;
+    line-height: 1.33;
+    letter-spacing: normal;
+  }
+
+  .profile-content {  
+    padding: 0 0 10px 0;    
+  }
+  
+  .profile-label {
+    width: 120px;
+    min-width: 120px;  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: wrap-reverse; 
+    
+  }
+  
+  .profile-label p { 
+    flex: 1; 
+    margin: 4px; 
+  }
+  
+  .user-name-label p {
+    color: var(--white-menu-color);
+    font-family: var(--roboto);
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+  }
+  
+  .user-sex-label p {
+    color: var(--white-menu-color);
+    font-family: var(--roboto);
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    
+  }
+  
+  .user-age-label p {
+    color: var(--white-menu-color);
+    font-family: var(--roboto);
+  
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+  }
+
+  .profile-content i {
+    color: var(--white-menu-color);
+  }
