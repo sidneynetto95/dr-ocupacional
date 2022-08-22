@@ -99,18 +99,12 @@
 
 /* table */
 
-.table-atendimento-clear {
- 
-    height: 100vh;
-    background-image: url(../../../img/medic-woman-onfoot.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position-y: 200px;
-}
+
 
 .table-content {
+    
     margin-left: 0.2rem;
-    min-width: 100%;
+    min-width: 79vw;
     font-family: var(--roboto);
     font-size: 12px;
     
@@ -200,6 +194,7 @@
 }
 
 .table-row-status{
+    
     height: 40px;    
     padding-top: 16px;
     font-family: var(--roboto);
@@ -212,19 +207,45 @@
     text-align: left;
 }
 
-.row-status1 {
+.row-status-ready {
+    width: 190px;
     font-weight: 600;
     color: var(--blue-color-rt);
     padding-right: 72px;
 }
 
+.row-status-awaiting {
+    width: 190px;
+    font-weight: 600;
+    color: var(--yellow-status-color);
+    padding-right: 72px;
+}
+
+.row-status-done {
+    width: 190px;
+    font-weight: 600;
+    color: var(--green-status-color);
+    padding-right: 72px;
+}
+
+.row-status-ready i {
+    padding-right: 4px;
+}
+
+.row-status-awaiting i {
+    padding-right: 4px;
+}
+
+.row-status-done i {
+    padding-right: 4px;
+}
+
 .row-btn-status {
-    margin-top: -8px;
-    
+    min-width: 128px;
+    margin:0px 8px 0px 0px;  
 }
 
 .status-btn-primary {
-   
     margin-right: 32px;
     min-width: 30px;
     min-height: 30px;
@@ -243,4 +264,36 @@
     min-height: 26px;
     border-radius:50px;
     background-color: var(--gray-border-color);
+}
+
+.user-not-found {
+    position: absolute;
+    height: 99vh;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 27%;
+    
+    
+}
+
+.user-not-found label {
+  font-family: IBMPlexSans;
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.user-not-found p {
+  font-family: NotoSans;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
 }

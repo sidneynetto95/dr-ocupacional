@@ -13,7 +13,8 @@ html {
 body {
     font-family: 'Roboto', sans-serif;    
     color: var(--black-color); 
-    width: 1280px;   
+    width: 83vw;  
+    min-width: 83vw;
     height: 100vh;
     margin-left: 16%;
     background-color: var( --white-bg-color);
