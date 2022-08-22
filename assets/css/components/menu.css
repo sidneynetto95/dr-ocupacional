@@ -88,8 +88,8 @@
 }
 
 .sideMenu ul li :hover::after {
+    height: 15px;
     width: 8px;
-    height: 32px;
     color: var(--blue-color);
     font-weight: bolder;
 }
@@ -109,9 +109,24 @@
 .item-menu-content :hover  {
     color: var(--black-color);
     font-weight: bolder;
-    
 }
 
+.p-p {
+    position:absolute;                 
+    bottom:2%;                          
+    padding-left: 2rem;
+    font-size: 14px;        
+    font-family: var(--roboto);
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+}
+
+.sideMenu .p-p a {
+    color: var(--blue-color2);
+}
 
 
 

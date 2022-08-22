@@ -1,0 +1,246 @@
+.atendimento-medico-content {
+    font-family: var(--roboto);
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-color);
+}
+
+/* form */
+
+.form-content {
+    display: flex;
+   
+    justify-content: space-between;
+}
+
+.form-consulta-card {
+    display: flex;
+    flex-direction: column;
+    margin-right: 6px;
+}
+
+.form-consulta-card p {
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+.icon-text-form {
+    margin-left: 0;
+}
+
+.input-icon-nome {
+    margin-left: 0;
+    height: 36px;
+    max-width: 41px;
+    padding-top: 10px;
+    border-top: solid 1px var(--gray-border-color);
+    border-left: solid 1px var(--gray-border-color);
+    border-bottom: solid 1px var(--gray-border-color);
+    border-radius: 4px 0px 0px 4px;
+    background-color: var(--gray-bg-icon);
+}
+
+.input-consulta-nome {
+    margin-right: 12px;
+    height:36px ;
+    width: 380px;
+    border: solid 1px var(--gray-border-color);
+    border-radius: 0px 4px 4px 0px;
+    font-size: 12px;
+    font-family: var(--roboto);
+    color: var(--gray-color);
+}
+
+.input-consulta-cpf {
+    height:36px ;
+    width: auto;
+    border: solid 1px var(--gray-border-color);
+    border-radius: 4px;
+    padding-left: 12px;
+    font-size: 12px;
+    font-family: var(--roboto);
+    color: var(--gray-color);
+}
+
+.input-consulta-date {
+    height:36px ;
+    width: auto;
+    border: solid 1px var(--gray-border-color);
+    border-radius: 4px;
+    padding-left: 12px;
+    font-size: 12px;
+    font-family: var(--roboto);
+    color: var(--gray-color);
+}
+
+.left-allign  {
+    margin-left: -12px;
+}
+
+.right-allign {
+    margin-left: 12px;
+}
+
+.button-submit-content {
+    max-width: fit-content;
+    margin-top: 1.4rem; 
+}
+
+.btn-submit {
+    min-width: 106px;
+    height: 36px;
+}
+
+/*END*/
+
+/* table */
+
+.table-atendimento-clear {
+ 
+    height: 100vh;
+    background-image: url(../../../img/medic-woman-onfoot.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 200px;
+}
+
+.table-content {
+    margin-left: 0.2rem;
+    min-width: 100%;
+    font-family: var(--roboto);
+    font-size: 12px;
+    
+}
+
+.table-col1 {
+    width: 280px;
+    height: 16px;
+    border-bottom: 2px solid var(--gray-border-color);
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+}
+.table-col2 {
+    width: 120px;
+    height: 16px;
+    border-bottom: 2px solid var(--gray-border-color);
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+}
+ .table-col3 {
+    width: 150px;
+    height: 16px;
+    border-bottom: 2px solid var(--gray-border-color);
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+}
+ .table-col4 {
+    width: 150px;
+    height: 16px;
+    border-bottom: 2px solid var(--gray-border-color);
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+}
+ .table-col5 {
+    width: 150px;
+    height: 16px;
+    border-bottom: 2px solid var(--gray-border-color);
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+}
+ .table-col6 {
+    height: 16px;
+    border-bottom: 2px solid var(--gray-border-color);
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.table-row {
+    height: 40px;
+    padding-top: 8px;
+    font-family: var(--roboto);
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+ tbody :hover {
+    background-color: var(--gray-ligth-color);
+}
+
+.table-row-status{
+    height: 40px;    
+    padding-top: 16px;
+    font-family: var(--roboto);
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.row-status1 {
+    font-weight: 600;
+    color: var(--blue-color-rt);
+    padding-right: 72px;
+}
+
+.row-btn-status {
+    margin-top: -8px;
+    
+}
+
+.status-btn-primary {
+   
+    margin-right: 32px;
+    min-width: 30px;
+    min-height: 30px;
+    border: none;
+    border-radius:50px;
+} 
+
+.status-icon {
+    padding-top: 6px;
+}
+
+.status-btn-primary :hover {
+    padding-top: 8px;
+    margin-right: 0px;
+    min-width: 26px;
+    min-height: 26px;
+    border-radius:50px;
+    background-color: var(--gray-border-color);
+}

@@ -12,8 +12,9 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;    
-    color: var(--black-color);    
-    height: 100vw;
+    color: var(--black-color); 
+    width: 1280px;   
+    height: 100vh;
     margin-left: 16%;
     background-color: var( --white-bg-color);
 

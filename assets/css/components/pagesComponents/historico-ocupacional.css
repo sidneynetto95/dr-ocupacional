@@ -44,7 +44,7 @@
     justify-content: space-between;
 }
 
-.header-ho-content h1 {
+.header-div-content h1 {
     font-family: var(--roboto);
     font-size: 16px;
     color: var(--blue-color);

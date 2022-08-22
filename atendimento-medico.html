@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Dr Ocupacional</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/components/menu.css">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/components/header.css">
+    <link rel="stylesheet" href="assets/css/components/pagesComponents/atendimento-medico.css">
+
+
+
+
+    <script src="https://kit.fontawesome.com/f27eb7a3a5.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <aside class="sideMenu">
+        <div class="menu-content">
+            <div id="intro" class="navbarLogo"><img src="assets/img/logoNavBar.png" alt=""></div>
+            <h1><a href="#">Prontuário</a></h1>
+            <nav>
+                <ul>
+
+                    <li>
+                        <div class="item-menu-content ">
+                            <a href="historico-ocupacional.html">
+                                <i class="nav-icon fa-solid fa-file-circle-plus "></i>
+                                Histórico Ocupacional
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-menu-content">
+                            <a href="habitos-de-vida.html">
+                                <i class="fa-solid fa-person-running nav-icon"></i>
+                                Hábitos de vida
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-menu-content">
+                            <a href="#">
+                                <i class="fa-solid fa-people-roof nav-icon"></i>
+                                Antecedentes Familiares
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-menu-content">
+                            <a href="#">
+                                <i class="fa-solid fa-person nav-icon"></i>
+                                Antecedentes Pessoais
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-menu-content active-menu">
+                            <a href="atendimento-medico.html">
+                                <i class="fa-solid fa-user-doctor nav-icon"></i>
+                                Atendimento Médico
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-menu-content">
+                            <a href="#">
+                                <i class="fa-solid fa-virus-covid nav-icon"></i>
+                                COVID-19
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-menu-content">
+                            <a href="#">
+                                <i class="fa-solid fa-bed-pulse nav-icon"></i>
+                                Queixa de Dor
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-menu-content">
+                            <a href="#">
+                                <i class="fa-solid fa-x-ray nav-icon"></i>
+                                Screening de Exames
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-menu-content">
+                            <a href="#">
+                                <i class="fa-solid fa-person-dress nav-icon"></i>
+                                Saúde da Mulher
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-menu-content">
+                            <a href="#">
+                                <i class="fa-solid fa-stethoscope nav-icon"></i>
+                                Sinais Vitais
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-menu-content">
+                            <a href="#">
+                                <i class="fa-solid fa-clipboard-user nav-icon"></i>
+                                Exame Físico
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-menu-content">
+                            <a href="#">
+                                <i class="fa-solid fa-wheelchair nav-icon"></i>
+                                Avaliação PCD
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-menu-content">
+                            <a href="#">
+                                <i class="fa-solid fa-check nav-icon"></i>
+                                Conclusão
+                            </a>
+                        </div>
+                    </li>
+
+
+                </ul>
+                <div class="p-p"><a href="">Políticas de Privacidade</a></div>
+            </nav>
+        </div>
+    </aside>
+
+    <div id="intro" class="header main-content">
+        <div class="header-content d-flex ">
+            <div class="header-text-label d-flex align-items-center mb-2 mb-lg-0 bi me-2">
+                <p>Seja bem vindo(a), você esta no ambiente de<strong>, Homologação!</strong></p>
+            </div>
+            <div class="profile-content nav align-items-center mb-2 mb-lg-0 bi me-2">
+                <img src="assets/img/userIcon.jpg" class="user-img bi me-2" width="40" height="32" role="img"
+                    aria-label="Welcome messenger" alt="">
+                <div class="profile-label">
+                    <div class="user-sex-label">
+                        <p>Sex,</p>
+                    </div>
+                    <div class="user-age-label">
+                        <p>00 anos</p>
+                    </div>
+                    <div class="user-name-label">
+                        <p><strong>Place Holder</strong></p>
+                    </div>
+                </div>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content spacing"></div>
+
+    <section id="atendimentoMedico" class="atendimento-medico-content main-content">
+        <div class="form-content row">
+            <div class="form-consulta-card col">
+                <label for="Name">Nome:</label>
+                <div class="row icon-text-form">
+                    <i class="fa-solid fa-magnifying-glass input-icon-nome col"></i>
+                    <input class="input-consulta-nome col" type="text" value="Pesquise o nome do funcionário...">
+                </div>
+            </div>
+            <div class="form-consulta-card col">
+                <label for="CPF">CPF:
+                    <i>(Somente Números)</i>
+                </label>
+                <input class=" input-consulta-cpf" type="text" value="Informe o Cpf...">
+            </div>
+            <div class="form-consulta-card col">
+                <label for="examDate">Data do Exame:</label>
+                <input class="input-consulta-date" type="date">
+            </div>
+
+            <div class="button-submit-content col">
+                <button type="button" class="btn btn-primary btn-primary-default btn-submit col">Buscar                    
+                </button>
+            </div>
+        </div>
+
+        <div class="spacing"></div>
+
+        <div id="tableAtendimento" class="table-atendimento">
+            <table id="tableContent" class="table-content">
+                <thead>
+                    <tr>
+                        <th scope="col" class="table-col1">Nome</th>
+                        <th scope="col" class="table-col2">CPF</th>
+                        <th scope="col" class="table-col3">Credenciado</th>
+                        <th scope="col"class="table-col4">Procedimento</th>
+                        <th scope="col" class="table-col5">Data</th>
+                        <th scope="col" class="table-col6">Status</th>
+                    </tr>
+
+                </thead>
+
+                <tbody >
+                    <tr>
+                        <th id="name" class="table-row" scope="row">Sidney da Costa Santos Neto</th> 
+                        <td id="cpf" class="table-row">000.000.000-00</td>
+                        <td id="credenciado" class="table-row">Dr.Ocupacional(Teste)</td>
+                        <td id="procedimento" class="table-row">Periodico</td>
+                        <td id="date" class="table-row">20/05/2022</td>
+                        <td id="status" class="table-row-status d-flex">
+                            <div class="row-status1">
+                                <i class="fa-solid fa-play "></i>
+                                Liberado
+                            </div>    
+                            <div class="row-btn-status">
+                                <button class="status-btn-primary"><i class="fa-solid fa-circle-play status-icon"></i></button>
+
+                                <button class="status-btn-primary"><i class="fa-solid fa-circle-play status-icon"></i></button>
+                                
+                            </div>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <th id="name" class="table-row" scope="row">Sidney da Costa Santos Neto</th> 
+                        <td class="table-row">000.000.000-00</td>
+                        <td class="table-row">Dr.Ocupacional(Teste)</td>
+                        <td class="table-row">Periodico</td>
+                        <td class="table-row">20/05/2022</td>
+                        <td class="table-row-status d-flex">
+                            <div class="row-status1">
+                                <i class="fa-solid fa-play "></i>
+                                Liberado
+                            </div>    
+                            <div class="row-btn-status">
+                                <button class="status-btn-primary">
+                                    <i class="fa-solid fa-circle-play status-icon"></i>
+                                </button>
+
+                                <button class="status-btn-primary">
+                                    <i class="fa-solid fa-circle-play status-icon">
+                                </i></button>
+                                
+                            </div>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="table-row" scope="row">Sidney da Costa Santos Neto</th> 
+                        <td class="table-row">000.000.000-00</td>
+                        <td class="table-row">Dr.Ocupacional(Teste)</td>
+                        <td class="table-row">Periodico</td>
+                        <td class="table-row">20/05/2022</td>
+                        <td class="table-row-status d-flex">
+                            <div class="row-status1">
+                                <i class="fa-solid fa-play "></i>
+                                Liberado
+                            </div>    
+                            <div class="row-btn-status">
+                                <button class="status-btn-primary"><i class="fa-solid fa-circle-play status-icon"></i></button>
+
+                                <button class="status-btn-primary"><i class="fa-solid fa-circle-play status-icon"></i></button>
+                                
+                            </div>
+                            
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+
+
+
+</body>
+
+</html>
