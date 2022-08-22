@@ -300,3 +300,8 @@
   letter-spacing: normal;
   text-align: center;
 }
+
+.button-submit-content a {
+    text-decoration: none;
+    color: white;
+}
