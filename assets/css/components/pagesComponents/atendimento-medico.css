@@ -253,6 +253,7 @@
     min-height: 30px;
     border: none;
     border-radius:50px;
+    background-color: var(--white-bg-color);
 } 
 
 .status-icon {
