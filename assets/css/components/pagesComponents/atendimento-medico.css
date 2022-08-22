@@ -242,10 +242,12 @@
 
 .row-btn-status {
     min-width: 128px;
-    margin:0px 8px 0px 0px;  
+    margin-top: -8px;
+     
 }
 
 .status-btn-primary {
+    padding-top: 0px;
     margin-right: 32px;
     min-width: 30px;
     min-height: 30px;
