@@ -22,20 +22,11 @@
 
 .info-header-ho-content {
     padding-bottom: 15px;
-    background-color: #fafbfc;
+    background-color: var(--white-content-color);
 }
 
-.info-header-ho-content {
-    padding-bottom: 15px;
-    background-color: #fafbfc;
-}
 
-.button-next-content-ho {
-    padding-bottom: 15px;
-    padding-left: 95%;
-    color: var(--blue-color);
-    
-}
+
 
 
 /* INFO PACIENT CONTENT */
@@ -128,6 +119,8 @@
     font-family: var(--roboto);
 }
 
+
+
 .form-check-content label {
     font-family: var(--roboto);
     margin: 0px 15px 0 10px;
@@ -141,6 +134,8 @@
 }
 
 /* END */
+
+
 
 
 

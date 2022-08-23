@@ -25,8 +25,9 @@
 /* Buttons */ 
 
 .btn-primary-default{
-    max-height: 34px;
-    max-width: fit-content;
+    height: 36px; 
+    min-width: 8.3rem;   
+    max-width: 10.6rem;
     border-radius: 4px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
     background-color: var(--primary-btn-color);
@@ -34,6 +35,33 @@
     font-size: 12px;
     font-family: var(--roboto);
 }
+
+.btn-secondary-default{
+    height: 36px; 
+    min-width: 8.3rem;   
+    max-width: 10.6rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+    background-color: var(--white-bg-color);
+    border-color: var(--primary-btn-color);
+    color: var(--primary-btn-color);
+    font-size: 12px;
+    font-family: var(--roboto);
+}
+
+.btn-tertiary-default{
+    height: 36px;
+    max-width: fit-content;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+    background-color: var(--white-bg-color);
+    border-color: var(--tertiary-btn-color);
+    color: var(--tertiary-btn-color);
+    font-size: 12px;
+    font-family: var(--roboto);
+}
+
+
 
 .dropdown-btn-primary-default{
     
@@ -43,6 +71,20 @@
     color: var(--black-color);
     text-align: left;
     
+}
+
+.button-next-content {
+    padding-bottom: 2rem;
+    padding-left: 87%;   
+}
+
+.button-next-back-content {
+    padding-bottom: 2rem;
+    padding-left: 70%;
+}
+
+.button-next-back-content button {
+    margin-right: 24px;
 }
 
 /* END */
