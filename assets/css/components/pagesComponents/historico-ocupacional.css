@@ -5,7 +5,7 @@
     justify-content: space-between;    
 }
 
-.riscos-pcmso-ho{
+.ho-content{
     border-radius: 5px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     background-color: var(--white-bg-color);
@@ -13,12 +13,10 @@
 
 }
 
-.historico-ocupacional-ho {
-    border-radius: 5px;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-    background-color: var(--white-bg-color);
-    justify-content: space-between; 
-}
+
+
+
+
 
 .info-header-ho-content {
     padding-bottom: 15px;
