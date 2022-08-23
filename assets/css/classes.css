@@ -2,8 +2,12 @@
 
 .main-content {
   margin-left: 4%;  
-  padding-left: 18px ;
+  padding-left: 16px;
   padding-right: 2%;  
+}
+
+.div-content {
+  margin-left: 32px;
 }
 
 .menu-content {
