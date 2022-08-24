@@ -1,0 +1,55 @@
+.conclusao-content { 
+    border-radius: 5px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: var(--white-bg-color);
+    padding-left: 24px;
+    padding-bottom: 18px;
+}
+
+.ccl-conduta-content {
+
+    min-height: 101px;
+}
+
+.ccl-conduta-content h1 {
+    font-family: var(--roboto);
+    font-size: 14px;
+    color: var(--black-color);
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    padding-left: 0px;
+}
+
+/* Check card */
+
+
+
+.ccl-card-content h1 {
+    font-family: var(--roboto);
+    font-size: 14px;
+    color: var(--black-color);
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    padding-left: 0px;
+    padding-bottom: 8px;
+}
+
+
+
+.form-check-content label {
+    font-family: var(--roboto);
+    margin: 0px 15px 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+
+    letter-spacing: normal;
+    text-align: left;
+}

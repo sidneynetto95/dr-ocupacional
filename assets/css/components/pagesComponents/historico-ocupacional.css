@@ -3,6 +3,7 @@
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     background-color: var(--white-bg-color);
     justify-content: space-between;    
+    padding-left: 0px;
 }
 
 .ho-content{
@@ -13,37 +14,13 @@
 
 }
 
-
-
-
-
-
-.info-header-ho-content {
-    padding-bottom: 15px;
-    background-color: var(--white-content-color);
-}
-
-
-
-
-
 /* INFO PACIENT CONTENT */
 
 .info-paciente-ho-content {
     justify-content: space-between;
 }
 
-.header-div-content h1 {
-    font-family: var(--roboto);
-    font-size: 16px;
-    color: var(--blue-color);
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.31;
-    letter-spacing: normal;
-    text-align: left;
-}
+
 
 .info-paciente-ho-card {
     padding-bottom: 15px;
@@ -113,23 +90,19 @@
 
 .acidente-card-content h1 {
     padding-top: 15px;
-    font-size: 14px;
     font-family: var(--roboto);
-}
-
-
-
-.form-check-content label {
-    font-family: var(--roboto);
-    margin: 0px 15px 0 10px;
     font-size: 14px;
+    color: var(--black-color);
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-
+    line-height: 1.31;
     letter-spacing: normal;
-    text-align: left;
 }
+
+
+
+
 
 /* END */
 

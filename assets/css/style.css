@@ -20,7 +20,36 @@
 
 .spacing {
     padding-top: 50px;
+    margin-bottom: 0px;
 }
+
+/* Header div*/
+
+.header-div-content h1 {
+    font-family: var(--roboto);
+    font-size: 16px;
+    color: var(--blue-color);
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    
+}
+
+.header-div-content h2 {
+    font-family: var(--roboto);
+    font-size: 14px;
+    color: var(--black-color);
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    
+}
+
+/* Header END */
 
 /* Buttons */ 
 
@@ -91,16 +120,26 @@
 
 /* END */
 
-
-
-.header-div-content h1 {
+.form-check-label  {
     font-family: var(--roboto);
-    font-size: 16px;
-    color: var(--blue-color);
-    font-weight: bold;
+    margin: 0px 15px 0 10px;
+    font-size: 14px;
+    font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.31;
     letter-spacing: normal;
     text-align: left;
+}
+
+#flexCheckDefault {
+    border: 1px solid var(--black-color);
+    border-radius: 0px;
+}
+
+#flexRadioDefault1 {
+    border: 1px solid var(--black-color);
+}
+
+#flexRadioDefault2 {
+    border: 1px solid var(--black-color);
 }
