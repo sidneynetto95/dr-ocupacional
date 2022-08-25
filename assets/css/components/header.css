@@ -1,5 +1,5 @@
 .header {
-    width: 80.7vw;
+    width:80vw;
     max-height: 78px;
     padding-top: 1%;
     background-color: var(--blue-color);
@@ -8,6 +8,7 @@
 
   .header-content {
     justify-content: space-between;
+    position: relative;
   }
 
   .header-text-label p {

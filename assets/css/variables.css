@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
 :root {
     --white-menu-color: #FFF;
     --white-bg-color: #FFFFFF;
@@ -13,6 +16,7 @@
     --primary-btn-color: #326c91;
     --tertiary-btn-color: #4fa2c2;
     --roboto:  'Roboto', sans-serif;
+    --notoSans:  'Noto Sans', sans-serif;
     --yellow-status-color: #fdba04;
     --green-status-color: #43a047;
     

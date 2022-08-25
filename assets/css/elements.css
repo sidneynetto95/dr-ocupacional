@@ -1,27 +1,27 @@
 * {
     margin: 0px;
     padding: 0px;
+    overscroll-behavior: [ contain  none  auto ];
     
     
 }
 
 html {
     font-size: 16px;
+    max-width: 1500px;
     
 }
 
 /*Font family*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
 
 body {
-    font-family: 'Roboto', sans-serif;    
+    font-family: var(--roboto) ;    
     color: var(--black-color); 
     width: 83vw;  
     min-width: 83vw;
     height: 100vh;
     margin-left: 16%;
-    
-    
     background-color: var( --white-bg-color);
 
 }
