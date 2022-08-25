@@ -1,10 +1,12 @@
 /* Geral */
+.top-spacing {
+  padding-top: 129px;
+}
 
 .main-content {
   margin-left: 4%;  
   padding-left: 16px;
   padding-right: 2%;  
-  padding-top: 94px;
 }
 
 .div-content {
