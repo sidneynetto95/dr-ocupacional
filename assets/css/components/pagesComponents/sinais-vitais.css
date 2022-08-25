@@ -1,0 +1,50 @@
+.sinais-vitais {
+    border-radius: 5px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: var(--white-bg-color);
+    justify-content: space-between;    
+    padding-left: 0px;
+    position: relative;
+    height: 400px;
+}
+
+.sV-content-row-one {
+    display: inline;
+    
+}
+
+.sV-content-row-two {
+    display: inline;
+    
+}
+
+
+
+.prsA-content {
+    padding: 0px;
+    max-width: 300px;
+    margin-right: 0px;
+}
+
+.sV-card-content {
+    padding: 0px;
+   max-width: 250px;
+   margin-right: -100px;
+}
+
+
+.insidesV-card-content {
+    width: 105px;
+    height: 38px;
+    
+    padding: 8px 31px 2px 31px;
+    border-radius: 4px;
+    border: solid 1px #e5e5e5;
+    background-color: #fff;
+    display: inline;
+}
+
+.insidesV-card-content label{
+    margin-top: 10px;
+    margin-bottom: 46px;
+}
