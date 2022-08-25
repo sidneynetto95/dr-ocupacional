@@ -1,14 +1,19 @@
 .header {
-    width:80vw;
+    width:82vw;
+    max-width: ;
     max-height: 78px;
+    position: fixed;
+    top: 0;
+    left: 14vw;
     padding-top: 1%;
     background-color: var(--blue-color);
     justify-content: space-between;
+
   }
 
   .header-content {
     justify-content: space-between;
-    position: relative;
+    
   }
 
   .header-text-label p {
