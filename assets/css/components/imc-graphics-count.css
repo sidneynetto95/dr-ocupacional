@@ -8,3 +8,44 @@
     
 }
 
+.imc-graphics-content#bg-imc {
+    position: relative;
+}
+
+.pointer-imc {
+    width: 66px;
+    position: absolute;
+    right: 11.4rem;
+    top: 3rem;
+}
+
+.imc-count-content{
+    position: absolute;
+    right: 12rem;
+    top: 13rem;
+    text-align: center;
+}
+
+.imc-count-content h1 {
+    font-family: var(--roboto);
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+   
+    color: var(--black-color);
+}
+
+.imc-count-content Label {
+    font-family: var(--roboto);
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.78;
+    letter-spacing: normal;
+    
+    color: var(--imc-blue-color);
+}

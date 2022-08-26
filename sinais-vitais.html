@@ -9,7 +9,7 @@
     <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" type="image/x-icon">
     
-    <title>Dr Ocupacional</title>
+    <title>Dr Ocupacional | Sinais vitais</title>
    
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/components/menu.css">
@@ -257,7 +257,14 @@
             </div>
             
             <div id="imcGraphics" class="imc-graphics-content ">
-                <img src="assets/img/graficoNoBg.png" alt="">
+                <img id="bg-imc" src="assets/img/graficoNoBg.png" alt="gráfico de I M C ">
+                <div id="ponterImc" class="pointer-imc">
+                    <img src="assets/img/pointer.png" alt="Ponteiro mostrando o valor">
+                </div>
+                <div class="imc-count-content">
+                    <h1>IMC</h1>
+                    <label id="imcValue" for="imc count">00.0</label>
+                </div>
                </div>
                
 
