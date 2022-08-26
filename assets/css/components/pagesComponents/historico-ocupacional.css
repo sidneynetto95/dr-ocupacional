@@ -4,6 +4,8 @@
     background-color: var(--white-bg-color);
     justify-content: space-between;    
     padding-left: 0px;
+    margin-top: 60px;
+    padding-top: 8px;
 }
 
 .ho-content{
