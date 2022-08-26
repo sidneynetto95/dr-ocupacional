@@ -1,8 +1,10 @@
 .imc-graphics-content {
-    max-width: 430px;
+    
+    width: 430px;
     height: 330px;
     position: absolute;
     right: 0;
     top: 0;
     
 }
+

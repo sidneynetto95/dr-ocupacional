@@ -6,6 +6,7 @@
     padding-left: 0px;
     position: relative;
     height: 400px;
+    min-width: 1080px;
 }
 
 .sV-content-row-one {
