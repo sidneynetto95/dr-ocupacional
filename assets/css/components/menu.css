@@ -9,6 +9,7 @@
     z-index: 1;
     align-items: center;
     background-color: var(--white-menu-color);
+    
 }
 
 
@@ -36,10 +37,11 @@
      
     margin-left: 0;
     margin-right: 0;   
-    text-align: center;
+    text-align: left;
     flex-wrap: wrap;
     justify-content: center;
     max-height: 100vw;
+
     
 }
 
