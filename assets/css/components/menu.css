@@ -1,19 +1,11 @@
 .sideMenu {
     background: var(--white-menu-color) ;
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 18vw;
     height: 100vh;
     overflow-y: scroll;
-    z-index: 1;
     align-items: center;
     background-color: var(--white-menu-color);
-    
 }
-
-
-
 
 .sideMenu h1{
     margin-left: 10px;

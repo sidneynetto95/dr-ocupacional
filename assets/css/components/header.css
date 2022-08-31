@@ -1,13 +1,10 @@
-.header {
+.site-header {
     width:82vw;
     max-height: 78px;
-    position: fixed;
-    top: 0;
-    left: 14vw;
-    padding-top: 1%;
+    padding-top: 10px;
     background-color: var(--blue-color);
     justify-content: space-between;
-
+    padding: 10px 10px 10px 40px;
   }
 
   .header-content {
