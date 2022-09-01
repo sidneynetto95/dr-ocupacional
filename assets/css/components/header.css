@@ -90,3 +90,56 @@
     cursor: pointer;
 
 }
+
+.card-perfil-expanded {
+  border: 1px solid var(--gray-border-color);
+  width: 30rem;
+  position: absolute;
+  margin-left: 55%;
+  background-color: var(--white-menu-color);
+  display: none;
+}
+
+.perfil-img-card {
+  width: 100px;
+  position: relative;
+}
+
+.card-perfil-content h1 {
+  font-family: var(--roboto);
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  left: 130px;
+  top:  16px;
+  color: var(--black-color);
+  
+}
+
+.card-perfil-content p {
+  font-family: var(--roboto);
+  font-size: 16px;
+  font-weight: 500;
+  position:absolute;
+  left: 130px;
+  top: 54px;
+  color: var(--gray-color);
+}
+
+.card-perfil-btn {
+  margin-left: 18px;
+  font-family: var(--roboto);
+  margin-bottom: 16px;
+  border: none;
+  background-color: none;
+}
+
+.card-perfil-btn i {
+  margin-right: 16px;
+  
+}
+
+#cardBtn1{
+  margin-top: 16px;
+}
+
