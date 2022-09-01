@@ -95,7 +95,7 @@
   border: 1px solid var(--gray-border-color);
   width: 30rem;
   position: absolute;
-  margin-left: 55%;
+  right: 5%;
   background-color: var(--white-menu-color);
   display: none;
 }
