@@ -80,3 +80,13 @@
   .profile-content i {
     color: var(--white-menu-color);
   }
+
+  .perfil-header-btn {
+
+    border: none;
+
+    background-color: var(--blue-color);    
+
+    cursor: pointer;
+
+}
