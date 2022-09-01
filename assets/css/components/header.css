@@ -4,13 +4,18 @@
     padding-top: 10px;
     background-color: var(--blue-color);
     justify-content: space-between;
+<<<<<<< Updated upstream
     padding: 10px 10px 10px 40px;
   }
+=======
+
+}
+>>>>>>> Stashed changes
 
   .header-content {
     justify-content: space-between;
     
-  }
+}
 
   .header-text-label p {
     color: var(--white-menu-color);
@@ -20,11 +25,11 @@
     font-style: bold;
     line-height: 1.33;
     letter-spacing: normal;
-  }
+}
 
   .profile-content {  
     padding: 0 0 10px 0;    
-  }
+}
   
   .profile-label {
     width: 120px;
@@ -34,12 +39,12 @@
     flex-wrap: wrap;
     flex-flow: wrap-reverse; 
     
-  }
+}
   
   .profile-label p { 
     flex: 1; 
     margin: 4px; 
-  }
+}
   
   .user-name-label p {
     color: var(--white-menu-color);
@@ -50,7 +55,7 @@
     font-style: normal;
     line-height: 1.33;
     letter-spacing: normal;
-  }
+}
   
   .user-sex-label p {
     color: var(--white-menu-color);
@@ -61,7 +66,7 @@
     font-style: normal;
     line-height: 1.33;
     
-  }
+}
   
   .user-age-label p {
     color: var(--white-menu-color);
@@ -72,8 +77,14 @@
     font-stretch: normal;
     font-style: normal;
     line-height: 1.33;
-  }
+}
 
   .profile-content i {
     color: var(--white-menu-color);
-  }
+}
+
+  .perfil-header-btn {
+    border: none;
+    background-color: var(--blue-color);    
+    cursor: pointer;
+}
